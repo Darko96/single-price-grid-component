@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  background-color: #e6eff5;
+  line-height: 1;
+}
+
+.price-section {
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.price-container {
+  max-width: 63.5rem;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.join-box {
+  grid-column: 1 / span 2;
+  background-color: #fff;
+  padding: 4rem;
+  border-radius: 8px 8px 0 0;
+}
+
+.join-primary-heading {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 2.8rem;
+  letter-spacing: -0.3px;
+  color: #2ab3b1;
+  margin-bottom: 2.4rem;
+}
+
+.join-secondary-heading {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 2.1rem;
+  letter-spacing: -0.22px;
+  color: #c0df33;
+  margin-bottom: 1.1rem;
+}
+
+.join-text {
+  opacity: 0.75;
+  color: #9aa7be;
+}
+
+.join-text,
+.price-text {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.6rem;
+  letter-spacing: -0.2px;
+}
+
+.subscription-box {
+  padding: 4rem 4rem 3.9rem 4rem;
+  background-color: #2ab3b1;
+  border-radius: 0 0 0 8px;
+}
+
+.subscription-heading,
+.about-us-heading {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 2.1rem;
+  letter-spacing: -0.22px;
+  color: #fff;
+  margin-bottom: 1.8rem;
+}
+
+.about-us-box {
+  padding: 4rem 4rem 4rem 4rem;
+  background-color: #4abfbc;
+  border-radius: 0 0 8px 0;
+}
+
+.about-us-list {
+  list-style: none;
+}
+
+.about-us-list li {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2rem;
+  letter-spacing: -0.175px;
+  color: #fff;
+  opacity: 0.75;
+}
+
+.price-box {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1.1rem;
+  margin-bottom: 4px;
+}
+
+.price {
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 3.74rem;
+  letter-spacing: -0.4px;
+  color: #fff;
+}
+
+.month {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.6rem;
+  letter-spacing: -0.2px;
+  color: #fff;
+  opacity: 0.5;
+}
+
+.price-text {
+  color: #fff;
+  margin-bottom: 2.6rem;
+}
+
+.sign-up {
+  display: inline-block;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.87rem;
+  letter-spacing: -0.2px;
+  color: #fff;
+  padding: 1.5rem 8.9rem 1.4rem 8.9rem;
+  background-color: #c0df33;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+@media all and (max-width: 40em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .price-section {
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .price-container {
+    max-width: 31.1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .join-box {
+    grid-column: 1 / span 2;
+    background-color: #fff;
+    padding: 2.8rem 2.4rem 3.2rem 2.4rem;
+  }
+
+  .join-secondary-heading {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    letter-spacing: -0.19px;
+    color: #c0df33;
+    margin-bottom: 1.6rem;
+  }
+
+  .join-text {
+    font-size: 1.4rem;
+    letter-spacing: -0.17px;
+  }
+
+  .subscription-box {
+    padding: 2.4rem;
+    border-radius: 0;
+  }
+
+  .about-us-box {
+    padding: 2.4rem 4.9rem 2.4rem 2.4rem;
+    border-radius: 0 0 8px 8px;
+  }
+}
