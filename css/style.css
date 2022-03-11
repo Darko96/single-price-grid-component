@@ -27,7 +27,7 @@ body {
 
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: 1fr 25.9rem;
 }
 
 .join-box {
