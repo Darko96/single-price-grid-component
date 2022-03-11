@@ -28,6 +28,7 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr 25.9rem;
+  box-shadow: 0px 15px 30px rgba(0, 81, 171, 0.148847);
 }
 
 .join-box {
